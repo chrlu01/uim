@@ -1,0 +1,2 @@
+small Perl tool that can check the port of remote servers
+the input can come via command line or via a generated input file
