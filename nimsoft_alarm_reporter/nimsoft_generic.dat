@@ -1,0 +1,44 @@
+# -- UMP server & port
+uim_server=bgbulab57
+uim_port=80
+# - (use: http or https)
+uim_https=http
+
+# --- Nimsoft userid and crypted password (via nimsoft_crypt)
+uim_user=administrator
+uim_password=gWL/M/ij/Dvonp0=
+
+# --- Nimsoft domain, hub and robot to create address to the main hub & nas
+uim_domain=bgbulab57_domain
+uim_hub=bgbulab57_hub
+uim_robot=bgbulab57
+
+# --- Wasp realm (used by Rest and UIMAPI) pre 20.4: NimJAAS from 20.4: wasp-engine
+uim_realm=wasp-engine
+
+# --- SQL server, userid, crypted password (via nimsoft_crypt) and database name
+# - if sql_user=trusted and sql_password= than we will take the logged on Windows user 
+sql_server=bgbulab57
+
+#sql_user=chrlu02
+#sql_password=oWL/M/ij/Dvo
+
+# - use SQL defined user
+sql_user=sa
+sql_password=gWL/M/ij/Dvonp0=
+
+# - use Windows authentication with the current logged on user
+#sql_user=trusted
+#sql_password=
+
+sql_db=CA_UIM
+# - sql_type: mssql or mysql
+sql_type=mssql
+# - sql_driver: "SQL Server" (=default) or a manual installed newer driver: "ODBC Driver 17 for SQL Server" (* no quotes around driver name *)
+#sql_driver=ODBC Driver 17 for SQL Server
+sql_driver= SQL Server
+# - if you want to connect via specific ODBC DSN and use here the defined "name", in that case sql_user and sql_password are the Windows user and encrypted password
+sql_dsn=
+
+# --- end of parameters ---
+
